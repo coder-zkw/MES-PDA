@@ -1,21 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
+    <!-- <keep-alive>
+      <router-view v-if="$route.path === '/worklist'"></router-view>
+    </keep-alive> -->
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// 设置应用全屏显示！
+// plus.navigator.setFullscreen(true)
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -23,6 +21,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 66px;
+}
+#app .van-nav-bar{
+  padding-top: 20px;
+  background: rgb(225, 240, 247);
+}
+#app .van-nav-bar .van-nav-bar__left, #app .van-nav-bar .van-nav-bar__right{
+  top: 20px;
 }
 </style>

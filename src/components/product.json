@@ -1,0 +1,54 @@
+{
+    "V_MES_PRODUCT": [
+      {
+        "ITEM_CODE": "V0K16008901",
+        "ITEM_NAME": "V0K16008901",
+        "ITEM_SPEC": "15-90700310-5J",
+        "CUST_CODE": "K16",
+        "CAD_DATE": "2014-11-06",
+        "CAD_VER": "1.2"
+      }
+    ],
+    "v_mes_gongxu": [
+      {
+        "WS_IDX": "01",
+        "GX_NAME": "打端子/自动机",
+        "WS_DESC": "裁压/上锡"
+      },
+      {
+        "WS_IDX": "02",
+        "GX_NAME": "端检",
+        "WS_DESC": null
+      },
+      {
+        "WS_IDX": "03",
+        "GX_NAME": "套P架",
+        "WS_DESC": null
+      },
+      {
+        "WS_IDX": "04",
+        "GX_NAME": "测试",
+        "WS_DESC": "影像测试"
+      },
+      {
+        "WS_IDX": "05",
+        "GX_NAME": "点胶",
+        "WS_DESC": null
+      },
+      {
+        "WS_IDX": "06",
+        "GX_NAME": "贴胶布",
+        "WS_DESC": null
+      },
+      {
+        "WS_IDX": "07",
+        "GX_NAME": "全检",
+        "WS_DESC": null
+      },
+      {
+        "WS_IDX": "08",
+        "GX_NAME": "包装",
+        "WS_DESC": null
+      }
+    ]
+  }
